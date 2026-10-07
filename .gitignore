@@ -1,0 +1,16 @@
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+
+# added by myrepo
+*.pem
+*.key
+*.pfx
+*.p12
+.npmrc
+.netrc
+id_rsa
+id_ed25519
+Thumbs.db
