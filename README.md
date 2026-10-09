@@ -53,3 +53,13 @@ Contributions that improve accessibility, source validation and clarity are welc
 App code and original documentation are MIT-licensed. Timetable facts are attributed to Steam Packet; the MIT license does not grant rights to the operator's trademarks, branding, source PDFs or third-party material. See [DATA-SOURCES.md](DATA-SOURCES.md).
 
 Part of the **42.uk universe**. **RELAX. IT'S ALREADY OVER.**
+
+## Project identity and media
+
+Part of the Mannin Knowledge Engine, with 42.uk styling, a 52.uk reference and Promptus.ai project credit. AI-generated design and code; timetable facts are sourced from Steam Packet, not a verified Isle of Man Government dataset. This independent, free project is unaffiliated with the operator or Government. The offline helper uses deterministic rules.
+
+The Douglas ferry photograph by John Lucas (2016) is licensed separately under CC BY-SA 2.0, not MIT. Source: https://commons.wikimedia.org/wiki/File:The_Isle_of_Man_ferry_enters_port_at_Douglas_-_geograph.org.uk_-_5035733.jpg . License: https://creativecommons.org/licenses/by-sa/2.0/ . The original image is included unchanged; its on-page display is cropped with CSS. The standalone file embeds it for offline use.
+
+## GitHub Pages use
+
+A static open-source project showcase and free timetable tool. No checkout, payment collection, paid SaaS or lead collection. Related project credits are secondary to the travel tool. See GitHub Pages limits and Acceptable Use Policies for the hosting conditions.
