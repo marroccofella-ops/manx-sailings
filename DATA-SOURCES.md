@@ -11,4 +11,4 @@ Ireland PDF: https://www.steam-packet.com/media/b4toofjz/ireland-timetable-sept-
 
 The source contains 72 entries. One inconsistent date, printed as 16 October within its November section, is excluded and disclosed in the interface. No Dublin departure dates are inferred.
 
-Code is MIT-licensed. Steam Packet names and referenced third-party content retain their respective rights. No source PDFs, vessel photos or operator logos are bundled. Updates should cite a dated operator source and identify unresolved inconsistencies.
+Code is MIT-licensed. Steam Packet names and referenced third-party content retain their respective rights. No source PDFs or operator logos are bundled. The separately licensed John Lucas ferry photograph is attributed in the interface and README. Updates should cite a dated operator source and identify unresolved inconsistencies.

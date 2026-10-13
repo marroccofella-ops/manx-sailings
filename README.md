@@ -63,3 +63,5 @@ The Douglas ferry photograph by John Lucas (2016) is licensed separately under C
 ## GitHub Pages use
 
 A static open-source project showcase and free timetable tool. No checkout, payment collection, paid SaaS or lead collection. Related project credits are secondary to the travel tool. See GitHub Pages limits and Acceptable Use Policies for the hosting conditions.
+
+Timetable maintainers: see [the checked import procedure](UPDATE-TIMETABLE.md) and run `node validate-timetable.cjs` before rebuilding.

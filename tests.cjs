@@ -9,3 +9,5 @@ assert.ok(parse('Liverpool 31/11/2026','2026-10-07').error);assert.ok(parse('nex
 for(const f of ['planner.js','assistant.js'])new vm.Script(fs.readFileSync(f,'utf8'));
 const h=fs.readFileSync('Manx-Sailings-Standalone.html','utf8');assert.ok(!/fetch\(|<script src=|<link rel="stylesheet"|@import/.test(h));
 console.log('Passed: data integrity, Liverpool gaps, Ireland conflict, local intent parsing, script syntax and offline packaging.');
+
+const validate=require('./validate-timetable.cjs');assert.equal(validate(rows),402);assert.throws(()=>validate([...rows,rows[0]]));assert.throws(()=>validate([{...rows[0],date:'2026-02-30'}]));assert.throws(()=>validate([{...rows[0],depart:'25:00'}]));
