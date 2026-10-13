@@ -16,3 +16,7 @@ The 20 suggestions are grouped into existing timetable controls and six expandab
 | 20 Independence | Short limitation reminder always visible beside planner results. |
 
 Checks: dataset validation; existing 402-row integrity and offline-package tests; duplicate/invalid candidate rejection; internal anchor integrity; guide sections and external resource destinations; deployed content and browser review. External operational guidance must always be confirmed on the provider site.
+
+## Additional suggestions 21–37
+
+Added work/connectivity/family, safety context and operator/project ownership panels. Current primary sources linked for Wi-Fi allowances and facilities. Dated March 2025 incident is attributed to the operator, without claiming an investigation outcome. Unverified reliability percentages, subsidy statements, damage allegations and group-ratio changes are excluded. Public bodies and operator contact channels are linked without presenting expired consultations as active. CSV and JSON exports share one source; standalone embeds both. CONTRIBUTING.md and DATA-FORMAT.md document review, privacy and licensing boundaries. Departure cards calculate published check-in reminders, including previous-day deadlines, without treating them as recommended arrival times.
