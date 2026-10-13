@@ -11,3 +11,5 @@ const h=fs.readFileSync('Manx-Sailings-Standalone.html','utf8');assert.ok(!/fetc
 console.log('Passed: data integrity, Liverpool gaps, Ireland conflict, local intent parsing, script syntax and offline packaging.');
 
 const validate=require('./validate-timetable.cjs');assert.equal(validate(rows),402);assert.throws(()=>validate([...rows,rows[0]]));assert.throws(()=>validate([{...rows[0],date:'2026-02-30'}]));assert.throws(()=>validate([{...rows[0],depart:'25:00'}]));
+
+const page=fs.readFileSync('index.html','utf8');const ids=[...page.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length);for(const m of page.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(m[1]),'Missing anchor '+m[1]);for(const id of ['comfort','ports-guide','special-needs','disruption','history-guide','methodology'])assert.ok(ids.includes(id));assert.ok(page.includes('https://commerce.steam-packet.com/'));assert.ok(h.includes('https://www.nhs.uk/conditions/motion-sickness/'));assert.ok(h.includes('no live prices, availability or real-time status'));console.log('Passed passenger guide structure, anchor integrity, official hand-off and offline resources.');
