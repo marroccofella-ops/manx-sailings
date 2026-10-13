@@ -5,8 +5,8 @@ function parseTimetableQuestion(text, referenceDate, currentRoute='Liverpool|in'
  let direction=currentRoute.split('|')[1];
  if(/from (the )?(isle of man|douglas|island)|to (liverpool|heysham|larne|dublin)/.test(q))direction='out';
  else if(/from (liverpool|heysham|larne|dublin)|to (the )?(isle of man|douglas|island)/.test(q))direction='in';
- let date=referenceDate;let match=q.match(/\b(2026)-(\d{2})-(\d{2})\b/);
- if(match)date=match[0];else if((match=q.match(/\b(\d{1,2})\/(\d{1,2})\/(2026)\b/)))date=`${match[3]}-${match[2].padStart(2,'0')}-${match[1].padStart(2,'0')}`;
+ let date=referenceDate;let match=q.match(/\b(20\d{2})-(\d{2})-(\d{2})\b/);
+ if(match)date=match[0];else if((match=q.match(/\b(\d{1,2})\/(\d{1,2})\/(20\d{2})\b/)))date=`${match[3]}-${match[2].padStart(2,'0')}-${match[1].padStart(2,'0')}`;
  else if(q.includes('tomorrow')){let d=new Date(referenceDate+'T12:00:00');d.setDate(d.getDate()+1);date=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
  if(Number.isNaN(Date.parse(date+'T12:00:00'))||new Date(date+'T12:00:00').getDate()!==Number(date.slice(-2)))return {error:'Use a valid date, such as 2026-11-07.'};
  const min=port==='Larne'?'2026-09-02':'2026-09-21';if(date<min||date>'2026-11-30')return {error:'That date is outside the imported autumn timetable.'};

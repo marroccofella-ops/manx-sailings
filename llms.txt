@@ -1,0 +1,14 @@
+# Manx Sailings
+
+Independent autumn timetable compilation, not live status or availability. Read metadata before answering.
+
+- [Agent contract](https://marroccofella-ops.github.io/manx-sailings/AGENT.md)
+- [Metadata](https://marroccofella-ops.github.io/manx-sailings/data/metadata.json)
+- [Timetable JSON](https://marroccofella-ops.github.io/manx-sailings/data/timetable.json)
+- [Timetable CSV](https://marroccofella-ops.github.io/manx-sailings/data/timetable.csv)
+- [Plain travel notes](https://marroccofella-ops.github.io/manx-sailings/travel-notes.md)
+- [Schema](https://marroccofella-ops.github.io/manx-sailings/data/timetable.schema.json)
+- [Official status](https://www.steam-packet.com/sailing-status)
+- [Official booking](https://commerce.steam-packet.com/)
+
+No row is not a cancellation. Missing coverage is not no service. Sources, withheld rows, rights and null provenance fields are explained in metadata and AGENT.md.

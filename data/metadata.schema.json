@@ -1,0 +1,281 @@
+{
+  "type": "object",
+  "required": [
+    "schema_version",
+    "dataset_version",
+    "published_date",
+    "last_source_review",
+    "record_count",
+    "independent",
+    "official",
+    "affiliated_with_operator",
+    "affiliated_with_government",
+    "live_status",
+    "prices",
+    "availability",
+    "time_basis",
+    "coverage",
+    "unavailable_routes",
+    "sources",
+    "withheld_rows",
+    "limitations",
+    "actions",
+    "citation",
+    "code_license",
+    "data_rights",
+    "files",
+    "hashes"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "dataset_version": {
+      "type": "string"
+    },
+    "published_date": {
+      "type": "string"
+    },
+    "last_source_review": {
+      "type": "string"
+    },
+    "record_count": {
+      "type": "integer"
+    },
+    "independent": {
+      "const": true
+    },
+    "official": {
+      "const": false
+    },
+    "affiliated_with_operator": {
+      "const": false
+    },
+    "affiliated_with_government": {
+      "const": false
+    },
+    "live_status": {
+      "const": false
+    },
+    "prices": {
+      "const": false
+    },
+    "availability": {
+      "const": false
+    },
+    "time_basis": {
+      "type": "string"
+    },
+    "coverage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "port",
+          "start",
+          "end"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "port": {
+            "type": "string"
+          },
+          "start": {
+            "type": "string"
+          },
+          "end": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "unavailable_routes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "url",
+          "pdf_url",
+          "sha256",
+          "extraction_date",
+          "review_date",
+          "provenance_note"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "pdf_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "extraction_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "review_date": {
+            "type": "string"
+          },
+          "provenance_note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "withheld_rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "printed_date",
+          "section",
+          "from",
+          "to",
+          "departure",
+          "arrival",
+          "vessel",
+          "reason"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "printed_date": {
+            "type": "string"
+          },
+          "section": {
+            "type": "string"
+          },
+          "from": {
+            "type": "string"
+          },
+          "to": {
+            "type": "string"
+          },
+          "departure": {
+            "type": "string"
+          },
+          "arrival": {
+            "type": "string"
+          },
+          "vessel": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "actions": {
+      "type": "object",
+      "required": [
+        "check_live_status",
+        "book",
+        "amend"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "check_live_status": {
+          "type": "string"
+        },
+        "book": {
+          "type": "string"
+        },
+        "amend": {
+          "type": "string"
+        }
+      }
+    },
+    "citation": {
+      "type": "string"
+    },
+    "code_license": {
+      "type": "string"
+    },
+    "data_rights": {
+      "type": "string"
+    },
+    "files": {
+      "type": "object",
+      "required": [
+        "timetable",
+        "csv",
+        "schema",
+        "metadata_schema",
+        "snapshot"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "timetable": {
+          "type": "string"
+        },
+        "csv": {
+          "type": "string"
+        },
+        "schema": {
+          "type": "string"
+        },
+        "metadata_schema": {
+          "type": "string"
+        },
+        "snapshot": {
+          "type": "string"
+        }
+      }
+    },
+    "hashes": {
+      "type": "object",
+      "required": [
+        "timetable_sha256",
+        "csv_sha256"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "timetable_sha256": {
+          "type": "string"
+        },
+        "csv_sha256": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://marroccofella-ops.github.io/manx-sailings/data/metadata.schema.json",
+  "title": "Manx Sailings snapshot metadata v1"
+}

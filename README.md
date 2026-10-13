@@ -65,3 +65,7 @@ The Douglas ferry photograph by John Lucas (2016) is licensed separately under C
 A static open-source project showcase and free timetable tool. No checkout, payment collection, paid SaaS or lead collection. Related project credits are secondary to the travel tool. See GitHub Pages limits and Acceptable Use Policies for the hosting conditions.
 
 Timetable maintainers: see [the checked import procedure](UPDATE-TIMETABLE.md) and run `node validate-timetable.cjs` before rebuilding.
+
+## Agent interface
+
+Stable structured data and explicit limits: [AGENT.md](AGENT.md). Build derives 402 enriched records, matching CSV, provenance metadata and immutable dated snapshots from sailings.json. Query locally with query.cjs; static Pages offers file downloads, not a hosted filter API. Every record carries official status/booking/amendment actions. Null provenance fields mean unavailable.

@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_version": "2026-10-14-v1",
+  "published_date": "2026-10-14",
+  "last_source_review": "2026-10-07",
+  "record_count": 402,
+  "independent": true,
+  "official": false,
+  "affiliated_with_operator": false,
+  "affiliated_with_government": false,
+  "live_status": false,
+  "prices": false,
+  "availability": false,
+  "time_basis": "Local port times, Europe/London and Europe/Isle_of_Man; UTC offsets are not supplied.",
+  "coverage": [
+    {
+      "port": "Liverpool",
+      "start": "2026-09-21",
+      "end": "2026-11-30"
+    },
+    {
+      "port": "Heysham",
+      "start": "2026-09-21",
+      "end": "2026-11-30"
+    },
+    {
+      "port": "Larne",
+      "start": "2026-09-02",
+      "end": "2026-11-30"
+    }
+  ],
+  "unavailable_routes": [
+    "Dublin"
+  ],
+  "sources": [
+    {
+      "id": "uk-autumn-2026",
+      "title": "Supplied Steam Packet UK autumn 2026 timetable",
+      "url": "https://www.steam-packet.com/routes-and-times",
+      "pdf_url": null,
+      "sha256": null,
+      "extraction_date": null,
+      "review_date": "2026-10-07",
+      "provenance_note": "Exact original PDF URL, original bytes and extraction date were not retained. Directory link is not a PDF citation."
+    },
+    {
+      "id": "ireland-autumn-2026",
+      "title": "Steam Packet Ireland September–November 2026 v2",
+      "url": "https://www.steam-packet.com/media/b4toofjz/ireland-timetable-sept-oct-nov-2026-v2.pdf",
+      "pdf_url": "https://www.steam-packet.com/media/b4toofjz/ireland-timetable-sept-oct-nov-2026-v2.pdf",
+      "sha256": null,
+      "extraction_date": null,
+      "review_date": "2026-10-07",
+      "provenance_note": "Original imported PDF bytes and exact extraction date were not retained; no source hash is invented."
+    }
+  ],
+  "withheld_rows": [
+    {
+      "source_id": "ireland-autumn-2026",
+      "printed_date": "2026-10-16",
+      "section": "November",
+      "from": "Larne",
+      "to": "Isle of Man",
+      "departure": "01:00",
+      "arrival": "06:15",
+      "vessel": "Ben My Chree",
+      "reason": "Printed October date conflicts with November section. Neither 16 October nor 16 November is confirmed by this row."
+    }
+  ],
+  "limitations": [
+    "No record in coverage means no entry in the imported source, not cancellation or sold out.",
+    "Outside coverage or Dublin means missing imported data, not no service.",
+    "Schedules may change for weather, tides, maintenance, ports or operations.",
+    "Duration is a local clock interval, not DST-correct elapsed time.",
+    "Some source provenance is unavailable and explicitly null."
+  ],
+  "actions": {
+    "check_live_status": "https://www.steam-packet.com/sailing-status",
+    "book": "https://commerce.steam-packet.com/",
+    "amend": "https://commerce.steam-packet.com/login"
+  },
+  "citation": "Manx Sailings, independent Steam Packet timetable compilation, snapshot 2026-10-14-v1; source review 2026-10-07. Cite the record source and verify live status with Steam Packet.",
+  "code_license": "MIT",
+  "data_rights": "Community compilation; original source rights remain separate. No blanket license for operator content is granted.",
+  "files": {
+    "timetable": "https://marroccofella-ops.github.io/manx-sailings/data/timetable.json",
+    "csv": "https://marroccofella-ops.github.io/manx-sailings/data/timetable.csv",
+    "schema": "https://marroccofella-ops.github.io/manx-sailings/data/timetable.schema.json",
+    "metadata_schema": "https://marroccofella-ops.github.io/manx-sailings/data/metadata.schema.json",
+    "snapshot": "https://marroccofella-ops.github.io/manx-sailings/data/snapshots/2026-10-14-v1/"
+  },
+  "hashes": {
+    "timetable_sha256": "489aa7b2d02fbbb40a020594ec9438c261a1c2a1d1ce5f3e84643aec1d2c7a41",
+    "csv_sha256": "2fe21d64f2f60084865fb40693713c8283dcce077ca69b7519a93ef2f2c33063"
+  }
+}

@@ -11,3 +11,5 @@ The current dataset is a manually reviewed autumn snapshot, not a live feed. Nev
 7. Publish using the myrepo workflow and inspect the deployed version. Confirm the stylesheet version changes when styles change. Preserve the Google verification tag. Timetable updates must retain the independent-source disclaimer and official hand-off links.
 
 Source review and site release are separate dates. The source review remains 7 October 2026 until the timetable itself is checked again.
+
+Agent exports: update coverage and provenance in build-agent-data.cjs with the reviewed source changes. Bump dataset_version before changing any records or metadata; existing snapshots are immutable. Update schemas for format changes, preserve unknown provenance as null, run node agent-tests.cjs, and check that static HTML, enriched exports, CSV and the planner agree. Never silently overwrite a pinned snapshot.
