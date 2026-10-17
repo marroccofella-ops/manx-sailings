@@ -19,5 +19,6 @@ jobs:
       - run: node research-tests.cjs
       - run: node environment-tests.cjs
       - run: node policy-tests.cjs
+      - run: node conditions-tests.cjs
       - name: Verify generated outputs are committed and reproducible
         run: git diff --exit-code

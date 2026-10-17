@@ -20,3 +20,6 @@ Get independent human-labelled NLP cases; evaluate robustness and calibration ra
 ## Verification commands
 
 node build.cjs; node import-weather.cjs; node reproduce.cjs; npm test. These are separate commands; no download is required once pinned sources are present. GitHub CI repeats these checks and verifies no generated-file differences. Browser review must check controls, calendar inspection, invalid ranges, model abstention/explanation, reporting-coverage filters, tide sliders, exports, phone layout and the standalone file.
+
+## 2026-10-17 — External port forecasts
+Imported seven days of hourly weather and tide-inclusive sea-level forecasts for five representative port locations. Added date-linked endpoint charts, accessible hourly tables, original API responses, retrieval timestamps and reproducible hashes. Kept forecast validity and chart datum limitations explicit; no forecasts derived from classroom simulations. Added DST fallback, missing-date, unit, source-integrity and offline tests. No new email correspondence or private mailbox content is included in this repository.

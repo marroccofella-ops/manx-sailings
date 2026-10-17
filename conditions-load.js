@@ -1,0 +1,1 @@
+fetch('data/port-conditions.json').then(r=>{if(!r.ok)throw Error('Forecast unavailable');return r.json()}).then(window.initPortConditions).catch(()=>{document.getElementById('portConditions').textContent='Forecast snapshot unavailable. Check official sources; the timetable remains usable.';});

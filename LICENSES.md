@@ -19,3 +19,6 @@ Photograph source: https://commons.wikimedia.org/wiki/File:The_Isle_of_Man_ferry
 NOAA source/citation: https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00516/html . NOAA and NCEI disclaim accuracy/completeness warranties; users must assess fitness for use. Cite dataset, station subset and access date.
 
 No endorsement by GitHub, Steam Packet, NOAA, PSMSL or the Isle of Man Government is claimed. Before adding third-party datasets, record the provider's licence and any restrictions separately; public accessibility alone is not an open-source licence.
+
+## Port forecast snapshot
+`data/port-conditions.json`: Open-Meteo, DWD, ECMWF and Meteo-France / Copernicus Marine, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Requested coastal locations, source URLs, retrieval time and original response hashes are preserved. This imported data is not relicensed under MIT. See PORT-CONDITIONS.md for limitations and provider API usage terms.
