@@ -1,0 +1,20 @@
+name: Reproduce research and validate data
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node validate-timetable.cjs
+      - run: node build.cjs
+      - run: node reproduce.cjs
+      - run: node tests.cjs
+      - run: node agent-tests.cjs
+      - run: node research-tests.cjs
+      - name: Verify generated outputs are committed and reproducible
+        run: git diff --exit-code
