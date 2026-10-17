@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this reproducible research software and its separately identified data sources."
+title: "Manx Sailings Research Lab"
+version: 2.0.0
+date-released: 2026-10-17
+license: MIT
+url: "https://marroccofella-ops.github.io/manx-sailings/"
+repository-code: "https://github.com/marroccofella-ops/manx-sailings"
+authors:
+  - family-names: Marrocco
+    given-names: Dominic

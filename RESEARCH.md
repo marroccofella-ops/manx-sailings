@@ -25,3 +25,11 @@ Run the six README commands. research-tests.cjs checks a hand-counted seven-day 
 ## Threats to validity
 
 A single short seasonal snapshot cannot establish general year-round patterns. Original document provenance is incomplete for the supplied UK timetable. Data may be superseded by operational notices. Local clock durations are not corrected for DST. Synthetic text variants are highly related and do not establish real-world model performance. No statistical significance or causal claims are made.
+
+## Expanded experiments (v2)
+
+Weekday backtest: chronological 70/30 split over all covered dates in the selected baseline route interval. Fit seven means using training dates only; unseen weekdays fall back to the overall training mean. Compare test mean absolute error against that overall-mean constant baseline. No shuffled time split and no test fitting. Fourteen days minimum. Scenario removal does not alter this retrospective baseline test. Calendar numbers and the prediction table are the exact values represented in SVG; no real service or weather forecast is implied.
+
+Vessel HHI is the sum of squared shares of published departures per vessel. It describes record concentration, not vessel availability or capacity. The quality screen groups port/direction/vessel before computing median duration and median absolute deviation (MAD). A modified threshold of 3×1.4826×MAD screens candidates; MAD=0 flags nonmedian values. Neither screening nor a missing source URL establishes a source error.
+
+Environmental experiments, data import, archive coverage, missing-value conversions, tidal equations and non-operational limitations are documented in ENVIRONMENT.md. The public historical weather subset is pinned and reproducible; original source hashes are verified by tests.

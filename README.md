@@ -41,3 +41,15 @@ Reproduce a result, challenge the metrics, add independently labelled NLP evalua
 ## Rights and attribution
 
 Code: MIT, copyright Dominic Marrocco. Original operator material retains its rights; no blanket data license is asserted. The retained historic Douglas photograph by John Lucas is CC BY-SA 2.0; it is not used as a promotional hero. See the source record for attribution. Part of the 42.uk / Mannin Knowledge Engine open research work.
+
+## Research v2: useful visualisation and environmental context
+
+The lab adds a clickable daily coverage calendar, labelled SVG weekday rates and a chronological holdout chart with exact-value tables. Compare weekday and constant baselines by MAE; inspect bounded gaps, vessel concentration and robust duration-screening candidates. The NLP challenge report includes an ablation, majority baseline, abstentions and feature explanations.
+
+Historical weather: 19,211 NOAA GSOD daily records, Ronaldsway station 03204099999, 1973-01-01 to 2025-08-24. Fifty-three original annual CSVs are pinned as gzip with source hashes. Filter monthly charts by variable and reporting completeness. This is surface history, not offshore sea state or a current forecast. A separate uncalibrated tidal/pressure teaching model demonstrates physics without claiming port predictions. See ENVIRONMENT.md and RESEARCH-NOTES.md.
+
+Run npm test for all suites. Run node import-weather.cjs to reproduce summaries from local pinned source files (offline); the explicit --download option is for a deliberate source acquisition only. Build before tests after code changes. Source downloads do not run on every site visit or in CI.
+
+## GitHub Pages policy compliance
+
+The maintainer assessment is that this static, non-commercial research demonstration conforms to Pages project-showcase use; it contains no ticket sales, commercial SaaS, checkout, affiliate tracking or lead collection. See [the explicit policy-to-evidence statement](HOSTING-REVIEW.md), [rights inventory](LICENSES.md) and policy-tests.cjs. This is not a GitHub-issued approval or guarantee; GitHub retains its enforcement decision. Commercial reseller activity is outside the Pages project and would require separate appropriate hosting.

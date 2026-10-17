@@ -13,8 +13,11 @@ jobs:
       - run: node validate-timetable.cjs
       - run: node build.cjs
       - run: node reproduce.cjs
+      - run: node import-weather.cjs
       - run: node tests.cjs
       - run: node agent-tests.cjs
       - run: node research-tests.cjs
+      - run: node environment-tests.cjs
+      - run: node policy-tests.cjs
       - name: Verify generated outputs are committed and reproducible
         run: git diff --exit-code

@@ -1,0 +1,15 @@
+{
+  "name": "manx-sailings-research",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Reproducible temporal transport, local NLP and environmental data research demo",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.cjs",
+    "reproduce": "node import-weather.cjs && node reproduce.cjs",
+    "test": "node validate-timetable.cjs && node tests.cjs && node agent-tests.cjs && node research-tests.cjs && node environment-tests.cjs && node policy-tests.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

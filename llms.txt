@@ -12,3 +12,9 @@ Independent autumn timetable compilation, not live status or availability. Read 
 - [Official booking](https://commerce.steam-packet.com/)
 
 No row is not a cancellation. Missing coverage is not no service. Sources, withheld rows, rights and null provenance fields are explained in metadata and AGENT.md.
+
+- [Research experiments](https://marroccofella-ops.github.io/manx-sailings/research/results.json)
+- [Historical weather and provenance](https://marroccofella-ops.github.io/manx-sailings/research/weather/history.json)
+- [Environmental methods](https://marroccofella-ops.github.io/manx-sailings/ENVIRONMENT.md)
+- [Rights inventory](https://marroccofella-ops.github.io/manx-sailings/LICENSES.md)
+- [Maintainer Pages policy assessment](https://marroccofella-ops.github.io/manx-sailings/HOSTING-REVIEW.md)

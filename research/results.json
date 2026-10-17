@@ -1,5 +1,5 @@
 {
-  "experiment_version": "1.0.0",
+  "experiment_version": "2.0.0",
   "dataset_version": "2026-10-14-v1",
   "input_sha256": "06338291d4540acfe133f233f4c6ba8d7f43631104bb476f54c5efbd2e8839cb",
   "method": "Inclusive local-date coverage with UTC-noon iteration; departures counted by route/direction; no inference of cancellations.",
@@ -64,289 +64,634 @@
       "daily": [
         {
           "date": "2026-09-21",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-22",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-23",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-24",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-25",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-26",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-27",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-28",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-29",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-30",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-01",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-02",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-03",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-04",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-05",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-06",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-07",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-08",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-09",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-10",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-11",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-12",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-13",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-14",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-15",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-16",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-17",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-18",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-19",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-20",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-21",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-22",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-23",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-24",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-25",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-26",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-27",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-28",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-29",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-30",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-31",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-01",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-02",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-03",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-04",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-05",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-06",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-07",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-08",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-09",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-10",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-11",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-12",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-13",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-14",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-15",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-16",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-17",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-18",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-19",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-20",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-21",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-22",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-23",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-24",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-25",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-26",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-27",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-28",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-29",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-30",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         }
       ],
+      "gaps": [
+        {
+          "start": "2026-09-29",
+          "end": "2026-09-30",
+          "days": 2
+        },
+        {
+          "start": "2026-10-06",
+          "end": "2026-10-07",
+          "days": 2
+        },
+        {
+          "start": "2026-10-13",
+          "end": "2026-10-14",
+          "days": 2
+        },
+        {
+          "start": "2026-10-20",
+          "end": "2026-10-21",
+          "days": 2
+        },
+        {
+          "start": "2026-11-03",
+          "end": "2026-11-06",
+          "days": 4
+        },
+        {
+          "start": "2026-11-09",
+          "end": "2026-11-13",
+          "days": 5
+        },
+        {
+          "start": "2026-11-16",
+          "end": "2026-11-20",
+          "days": 5
+        },
+        {
+          "start": "2026-11-23",
+          "end": "2026-11-27",
+          "days": 5
+        },
+        {
+          "start": "2026-11-30",
+          "end": "2026-11-30",
+          "days": 1
+        }
+      ],
+      "vesselCounts": [
+        {
+          "vessel": "M",
+          "count": 35,
+          "share": 0.813953488372093
+        },
+        {
+          "vessel": "BC",
+          "count": 8,
+          "share": 0.18604651162790697
+        }
+      ],
+      "vessel_concentration_hhi": 0.697133585722012,
+      "weekdayPrediction": {
+        "status": "evaluated",
+        "train_days": 49,
+        "test_days": 22,
+        "split_date": "2026-11-09",
+        "weekday_mae": 0.4935064935064935,
+        "constant_mae": 0.6159554730983303,
+        "predictions": [
+          {
+            "date": "2026-11-09",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-10",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-11",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-12",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-13",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-14",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-15",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-16",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-17",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-18",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-19",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-20",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-21",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-22",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-23",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-24",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-25",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-26",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-27",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-28",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-29",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-30",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          }
+        ],
+        "scope": "Retrospective chronological 70/30 backtest of baseline source records, not a future or operational forecast. Selected vessel scenario does not alter this backtest."
+      },
       "interpretation": "Published-record coverage, not reliability, cancellations, capacity or a prediction. Scenario removes all records for a vessel without substitutions."
     },
     {
@@ -409,289 +754,634 @@
       "daily": [
         {
           "date": "2026-09-21",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-22",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-23",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-24",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-25",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-26",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-27",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-28",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-29",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-30",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-01",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-02",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-03",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-04",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-05",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-06",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-07",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-08",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-09",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-10",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-11",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-12",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-13",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-14",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-15",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-16",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-17",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-18",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-19",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-20",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-21",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-22",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-23",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-24",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-25",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-26",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-27",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-28",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-29",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-30",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-31",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-01",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-02",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-03",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-04",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-05",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-06",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-07",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-08",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-09",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-10",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-11",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-12",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-13",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-14",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-15",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-16",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-17",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-18",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-19",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-20",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-21",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-22",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-23",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-24",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-25",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-26",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-27",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-28",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-29",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-30",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         }
       ],
+      "gaps": [
+        {
+          "start": "2026-09-29",
+          "end": "2026-09-30",
+          "days": 2
+        },
+        {
+          "start": "2026-10-06",
+          "end": "2026-10-07",
+          "days": 2
+        },
+        {
+          "start": "2026-10-13",
+          "end": "2026-10-14",
+          "days": 2
+        },
+        {
+          "start": "2026-10-20",
+          "end": "2026-10-21",
+          "days": 2
+        },
+        {
+          "start": "2026-11-03",
+          "end": "2026-11-06",
+          "days": 4
+        },
+        {
+          "start": "2026-11-09",
+          "end": "2026-11-13",
+          "days": 5
+        },
+        {
+          "start": "2026-11-16",
+          "end": "2026-11-20",
+          "days": 5
+        },
+        {
+          "start": "2026-11-23",
+          "end": "2026-11-27",
+          "days": 5
+        },
+        {
+          "start": "2026-11-30",
+          "end": "2026-11-30",
+          "days": 1
+        }
+      ],
+      "vesselCounts": [
+        {
+          "vessel": "M",
+          "count": 35,
+          "share": 0.813953488372093
+        },
+        {
+          "vessel": "BC",
+          "count": 8,
+          "share": 0.18604651162790697
+        }
+      ],
+      "vessel_concentration_hhi": 0.697133585722012,
+      "weekdayPrediction": {
+        "status": "evaluated",
+        "train_days": 49,
+        "test_days": 22,
+        "split_date": "2026-11-09",
+        "weekday_mae": 0.4935064935064935,
+        "constant_mae": 0.6159554730983303,
+        "predictions": [
+          {
+            "date": "2026-11-09",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-10",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-11",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-12",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-13",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-14",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-15",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-16",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-17",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-18",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-19",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-20",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-21",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-22",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-23",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-24",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-25",
+            "actual": 0,
+            "predicted": 0.2857142857142857,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-26",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-27",
+            "actual": 0,
+            "predicted": 0.8571428571428571,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-28",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-29",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          },
+          {
+            "date": "2026-11-30",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.7551020408163265
+          }
+        ],
+        "scope": "Retrospective chronological 70/30 backtest of baseline source records, not a future or operational forecast. Selected vessel scenario does not alter this backtest."
+      },
       "interpretation": "Published-record coverage, not reliability, cancellations, capacity or a prediction. Scenario removes all records for a vessel without substitutions."
     },
     {
@@ -754,289 +1444,604 @@
       "daily": [
         {
           "date": "2026-09-21",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-22",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-23",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-24",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-25",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-26",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-27",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-28",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-29",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-30",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-01",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-02",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-03",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-04",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-05",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-06",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-07",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-08",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-09",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-10",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-11",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-12",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-13",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-14",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-15",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-16",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-17",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-18",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-19",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-20",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-21",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-22",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-23",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-24",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-25",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-26",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-27",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-28",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-29",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-30",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-31",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-01",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-02",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-03",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-04",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-05",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-06",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-07",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-08",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-09",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-10",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-11",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-12",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-13",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-14",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-15",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-16",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-17",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-18",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-19",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-20",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-21",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-22",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-23",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-24",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-25",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-26",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-27",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-28",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-29",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-30",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         }
       ],
+      "gaps": [
+        {
+          "start": "2026-11-08",
+          "end": "2026-11-08",
+          "days": 1
+        },
+        {
+          "start": "2026-11-15",
+          "end": "2026-11-15",
+          "days": 1
+        },
+        {
+          "start": "2026-11-22",
+          "end": "2026-11-22",
+          "days": 1
+        },
+        {
+          "start": "2026-11-29",
+          "end": "2026-11-29",
+          "days": 1
+        }
+      ],
+      "vesselCounts": [
+        {
+          "vessel": "BC",
+          "count": 122,
+          "share": 1
+        }
+      ],
+      "vessel_concentration_hhi": 1,
+      "weekdayPrediction": {
+        "status": "evaluated",
+        "train_days": 49,
+        "test_days": 22,
+        "split_date": "2026-11-09",
+        "weekday_mae": 0.6493506493506493,
+        "constant_mae": 0.712430426716141,
+        "predictions": [
+          {
+            "date": "2026-11-09",
+            "actual": 1,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-10",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-11",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-12",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-13",
+            "actual": 1,
+            "predicted": 1.8571428571428572,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-14",
+            "actual": 1,
+            "predicted": 1.8571428571428572,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-15",
+            "actual": 0,
+            "predicted": 1.7142857142857142,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-16",
+            "actual": 1,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-17",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-18",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-19",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-20",
+            "actual": 1,
+            "predicted": 1.8571428571428572,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-21",
+            "actual": 1,
+            "predicted": 1.8571428571428572,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-22",
+            "actual": 0,
+            "predicted": 1.7142857142857142,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-23",
+            "actual": 1,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-24",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-25",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-26",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-27",
+            "actual": 1,
+            "predicted": 1.8571428571428572,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-28",
+            "actual": 1,
+            "predicted": 1.8571428571428572,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-29",
+            "actual": 0,
+            "predicted": 1.7142857142857142,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-30",
+            "actual": 1,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          }
+        ],
+        "scope": "Retrospective chronological 70/30 backtest of baseline source records, not a future or operational forecast. Selected vessel scenario does not alter this backtest."
+      },
       "interpretation": "Published-record coverage, not reliability, cancellations, capacity or a prediction. Scenario removes all records for a vessel without substitutions."
     },
     {
@@ -1099,289 +2104,604 @@
       "daily": [
         {
           "date": "2026-09-21",
-          "departures": 3
+          "departures": 3,
+          "baseline_departures": 3,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-22",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-23",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-24",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-25",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-26",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-27",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-28",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-29",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-30",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-01",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-02",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-03",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-04",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-05",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-06",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-07",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-08",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-09",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-10",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-11",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-12",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-13",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-14",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-15",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-16",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-17",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-18",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-19",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-20",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-21",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-22",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-23",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-24",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-25",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-26",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-27",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-28",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-29",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-30",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-31",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-01",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-02",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-03",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-04",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-05",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-06",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-07",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-08",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-09",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-10",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-11",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-12",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-13",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-14",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-15",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-16",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-17",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-18",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-19",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-20",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-21",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-22",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-23",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-24",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-25",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-26",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-27",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-28",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-29",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-30",
-          "departures": 2
+          "departures": 2,
+          "baseline_departures": 2,
+          "removed_departures": 0
         }
       ],
+      "gaps": [
+        {
+          "start": "2026-11-07",
+          "end": "2026-11-08",
+          "days": 2
+        },
+        {
+          "start": "2026-11-14",
+          "end": "2026-11-15",
+          "days": 2
+        },
+        {
+          "start": "2026-11-21",
+          "end": "2026-11-22",
+          "days": 2
+        },
+        {
+          "start": "2026-11-28",
+          "end": "2026-11-29",
+          "days": 2
+        }
+      ],
+      "vesselCounts": [
+        {
+          "vessel": "BC",
+          "count": 123,
+          "share": 1
+        }
+      ],
+      "vessel_concentration_hhi": 1,
+      "weekdayPrediction": {
+        "status": "evaluated",
+        "train_days": 49,
+        "test_days": 22,
+        "split_date": "2026-11-09",
+        "weekday_mae": 0.6103896103896104,
+        "constant_mae": 0.6966604823747681,
+        "predictions": [
+          {
+            "date": "2026-11-09",
+            "actual": 2,
+            "predicted": 2.142857142857143,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-10",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-11",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-12",
+            "actual": 1,
+            "predicted": 1.8571428571428572,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-13",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-14",
+            "actual": 0,
+            "predicted": 1.7142857142857142,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-15",
+            "actual": 0,
+            "predicted": 1.7142857142857142,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-16",
+            "actual": 2,
+            "predicted": 2.142857142857143,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-17",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-18",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-19",
+            "actual": 1,
+            "predicted": 1.8571428571428572,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-20",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-21",
+            "actual": 0,
+            "predicted": 1.7142857142857142,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-22",
+            "actual": 0,
+            "predicted": 1.7142857142857142,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-23",
+            "actual": 2,
+            "predicted": 2.142857142857143,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-24",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-25",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-26",
+            "actual": 1,
+            "predicted": 1.8571428571428572,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-27",
+            "actual": 2,
+            "predicted": 2,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-28",
+            "actual": 0,
+            "predicted": 1.7142857142857142,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-29",
+            "actual": 0,
+            "predicted": 1.7142857142857142,
+            "constant_baseline": 1.9183673469387754
+          },
+          {
+            "date": "2026-11-30",
+            "actual": 2,
+            "predicted": 2.142857142857143,
+            "constant_baseline": 1.9183673469387754
+          }
+        ],
+        "scope": "Retrospective chronological 70/30 backtest of baseline source records, not a future or operational forecast. Selected vessel scenario does not alter this backtest."
+      },
       "interpretation": "Published-record coverage, not reliability, cancellations, capacity or a prediction. Scenario removes all records for a vessel without substitutions."
     },
     {
@@ -1444,365 +2764,909 @@
       "daily": [
         {
           "date": "2026-09-02",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-03",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-04",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-05",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-06",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-07",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-08",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-09",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-10",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-11",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-12",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-13",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-14",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-15",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-16",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-17",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-18",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-19",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-20",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-21",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-22",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-23",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-24",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-25",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-26",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-27",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-28",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-29",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-30",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-01",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-02",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-03",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-04",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-05",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-06",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-07",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-08",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-09",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-10",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-11",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-12",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-13",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-14",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-15",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-16",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-17",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-18",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-19",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-20",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-21",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-22",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-23",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-24",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-25",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-26",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-27",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-28",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-29",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-30",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-31",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-01",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-02",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-03",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-04",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-05",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-06",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-07",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-08",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-09",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-10",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-11",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-12",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-13",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-14",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-15",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-16",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-17",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-18",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-19",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-20",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-21",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-22",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-23",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-24",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-25",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-26",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-27",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-28",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-29",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-30",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         }
       ],
+      "gaps": [
+        {
+          "start": "2026-09-03",
+          "end": "2026-09-03",
+          "days": 1
+        },
+        {
+          "start": "2026-09-05",
+          "end": "2026-09-06",
+          "days": 2
+        },
+        {
+          "start": "2026-09-08",
+          "end": "2026-09-08",
+          "days": 1
+        },
+        {
+          "start": "2026-09-10",
+          "end": "2026-09-10",
+          "days": 1
+        },
+        {
+          "start": "2026-09-12",
+          "end": "2026-09-13",
+          "days": 2
+        },
+        {
+          "start": "2026-09-15",
+          "end": "2026-09-15",
+          "days": 1
+        },
+        {
+          "start": "2026-09-17",
+          "end": "2026-09-17",
+          "days": 1
+        },
+        {
+          "start": "2026-09-19",
+          "end": "2026-09-20",
+          "days": 2
+        },
+        {
+          "start": "2026-09-22",
+          "end": "2026-09-22",
+          "days": 1
+        },
+        {
+          "start": "2026-09-24",
+          "end": "2026-09-24",
+          "days": 1
+        },
+        {
+          "start": "2026-09-26",
+          "end": "2026-09-27",
+          "days": 2
+        },
+        {
+          "start": "2026-09-29",
+          "end": "2026-09-29",
+          "days": 1
+        },
+        {
+          "start": "2026-10-01",
+          "end": "2026-10-01",
+          "days": 1
+        },
+        {
+          "start": "2026-10-03",
+          "end": "2026-10-04",
+          "days": 2
+        },
+        {
+          "start": "2026-10-06",
+          "end": "2026-10-06",
+          "days": 1
+        },
+        {
+          "start": "2026-10-08",
+          "end": "2026-10-08",
+          "days": 1
+        },
+        {
+          "start": "2026-10-10",
+          "end": "2026-10-11",
+          "days": 2
+        },
+        {
+          "start": "2026-10-13",
+          "end": "2026-10-13",
+          "days": 1
+        },
+        {
+          "start": "2026-10-15",
+          "end": "2026-10-15",
+          "days": 1
+        },
+        {
+          "start": "2026-10-17",
+          "end": "2026-10-18",
+          "days": 2
+        },
+        {
+          "start": "2026-10-20",
+          "end": "2026-10-20",
+          "days": 1
+        },
+        {
+          "start": "2026-10-22",
+          "end": "2026-10-22",
+          "days": 1
+        },
+        {
+          "start": "2026-10-24",
+          "end": "2026-10-25",
+          "days": 2
+        },
+        {
+          "start": "2026-10-27",
+          "end": "2026-10-27",
+          "days": 1
+        },
+        {
+          "start": "2026-10-29",
+          "end": "2026-10-29",
+          "days": 1
+        },
+        {
+          "start": "2026-10-31",
+          "end": "2026-11-01",
+          "days": 2
+        },
+        {
+          "start": "2026-11-03",
+          "end": "2026-11-03",
+          "days": 1
+        },
+        {
+          "start": "2026-11-05",
+          "end": "2026-11-05",
+          "days": 1
+        },
+        {
+          "start": "2026-11-07",
+          "end": "2026-11-08",
+          "days": 2
+        },
+        {
+          "start": "2026-11-10",
+          "end": "2026-11-12",
+          "days": 3
+        },
+        {
+          "start": "2026-11-14",
+          "end": "2026-11-19",
+          "days": 6
+        },
+        {
+          "start": "2026-11-21",
+          "end": "2026-11-22",
+          "days": 2
+        },
+        {
+          "start": "2026-11-24",
+          "end": "2026-11-26",
+          "days": 3
+        },
+        {
+          "start": "2026-11-28",
+          "end": "2026-11-29",
+          "days": 2
+        }
+      ],
+      "vesselCounts": [
+        {
+          "vessel": "M",
+          "count": 28,
+          "share": 0.8
+        },
+        {
+          "vessel": "BC",
+          "count": 7,
+          "share": 0.2
+        }
+      ],
+      "vessel_concentration_hhi": 0.6800000000000002,
+      "weekdayPrediction": {
+        "status": "evaluated",
+        "train_days": 62,
+        "test_days": 28,
+        "split_date": "2026-11-03",
+        "weekday_mae": 0.14285714285714285,
+        "constant_mae": 0.47235023041474655,
+        "predictions": [
+          {
+            "date": "2026-11-03",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-04",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-05",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-06",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-07",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-08",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-09",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-10",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-11",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-12",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-13",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-14",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-15",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-16",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-17",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-18",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-19",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-20",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-21",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-22",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-23",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-24",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-25",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-26",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-27",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-28",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-29",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-30",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          }
+        ],
+        "scope": "Retrospective chronological 70/30 backtest of baseline source records, not a future or operational forecast. Selected vessel scenario does not alter this backtest."
+      },
       "interpretation": "Published-record coverage, not reliability, cancellations, capacity or a prediction. Scenario removes all records for a vessel without substitutions."
     },
     {
@@ -1865,365 +3729,914 @@
       "daily": [
         {
           "date": "2026-09-02",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-03",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-04",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-05",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-06",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-07",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-08",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-09",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-10",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-11",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-12",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-13",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-14",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-15",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-16",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-17",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-18",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-19",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-20",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-21",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-22",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-23",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-24",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-25",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-26",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-27",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-28",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-29",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-09-30",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-01",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-02",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-03",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-04",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-05",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-06",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-07",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-08",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-09",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-10",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-11",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-12",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-13",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-14",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-15",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-16",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-17",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-18",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-19",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-20",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-21",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-22",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-23",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-24",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-25",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-26",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-27",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-28",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-29",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-30",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-10-31",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-01",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-02",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-03",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-04",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-05",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-06",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-07",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-08",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-09",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-10",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-11",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-12",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-13",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-14",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-15",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-16",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-17",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-18",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-19",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-20",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-21",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-22",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-23",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-24",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-25",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-26",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-27",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-28",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-29",
-          "departures": 1
+          "departures": 1,
+          "baseline_departures": 1,
+          "removed_departures": 0
         },
         {
           "date": "2026-11-30",
-          "departures": 0
+          "departures": 0,
+          "baseline_departures": 0,
+          "removed_departures": 0
         }
       ],
+      "gaps": [
+        {
+          "start": "2026-09-03",
+          "end": "2026-09-03",
+          "days": 1
+        },
+        {
+          "start": "2026-09-05",
+          "end": "2026-09-06",
+          "days": 2
+        },
+        {
+          "start": "2026-09-08",
+          "end": "2026-09-08",
+          "days": 1
+        },
+        {
+          "start": "2026-09-10",
+          "end": "2026-09-10",
+          "days": 1
+        },
+        {
+          "start": "2026-09-12",
+          "end": "2026-09-13",
+          "days": 2
+        },
+        {
+          "start": "2026-09-15",
+          "end": "2026-09-15",
+          "days": 1
+        },
+        {
+          "start": "2026-09-17",
+          "end": "2026-09-17",
+          "days": 1
+        },
+        {
+          "start": "2026-09-19",
+          "end": "2026-09-20",
+          "days": 2
+        },
+        {
+          "start": "2026-09-22",
+          "end": "2026-09-22",
+          "days": 1
+        },
+        {
+          "start": "2026-09-24",
+          "end": "2026-09-24",
+          "days": 1
+        },
+        {
+          "start": "2026-09-26",
+          "end": "2026-09-27",
+          "days": 2
+        },
+        {
+          "start": "2026-09-29",
+          "end": "2026-09-29",
+          "days": 1
+        },
+        {
+          "start": "2026-10-01",
+          "end": "2026-10-01",
+          "days": 1
+        },
+        {
+          "start": "2026-10-03",
+          "end": "2026-10-04",
+          "days": 2
+        },
+        {
+          "start": "2026-10-06",
+          "end": "2026-10-06",
+          "days": 1
+        },
+        {
+          "start": "2026-10-08",
+          "end": "2026-10-08",
+          "days": 1
+        },
+        {
+          "start": "2026-10-10",
+          "end": "2026-10-11",
+          "days": 2
+        },
+        {
+          "start": "2026-10-13",
+          "end": "2026-10-13",
+          "days": 1
+        },
+        {
+          "start": "2026-10-15",
+          "end": "2026-10-15",
+          "days": 1
+        },
+        {
+          "start": "2026-10-17",
+          "end": "2026-10-18",
+          "days": 2
+        },
+        {
+          "start": "2026-10-20",
+          "end": "2026-10-20",
+          "days": 1
+        },
+        {
+          "start": "2026-10-22",
+          "end": "2026-10-22",
+          "days": 1
+        },
+        {
+          "start": "2026-10-24",
+          "end": "2026-10-25",
+          "days": 2
+        },
+        {
+          "start": "2026-10-27",
+          "end": "2026-10-27",
+          "days": 1
+        },
+        {
+          "start": "2026-10-29",
+          "end": "2026-10-29",
+          "days": 1
+        },
+        {
+          "start": "2026-10-31",
+          "end": "2026-11-01",
+          "days": 2
+        },
+        {
+          "start": "2026-11-03",
+          "end": "2026-11-03",
+          "days": 1
+        },
+        {
+          "start": "2026-11-06",
+          "end": "2026-11-07",
+          "days": 2
+        },
+        {
+          "start": "2026-11-09",
+          "end": "2026-11-11",
+          "days": 3
+        },
+        {
+          "start": "2026-11-13",
+          "end": "2026-11-14",
+          "days": 2
+        },
+        {
+          "start": "2026-11-16",
+          "end": "2026-11-18",
+          "days": 3
+        },
+        {
+          "start": "2026-11-20",
+          "end": "2026-11-21",
+          "days": 2
+        },
+        {
+          "start": "2026-11-23",
+          "end": "2026-11-25",
+          "days": 3
+        },
+        {
+          "start": "2026-11-27",
+          "end": "2026-11-28",
+          "days": 2
+        },
+        {
+          "start": "2026-11-30",
+          "end": "2026-11-30",
+          "days": 1
+        }
+      ],
+      "vesselCounts": [
+        {
+          "vessel": "M",
+          "count": 28,
+          "share": 0.7777777777777778
+        },
+        {
+          "vessel": "BC",
+          "count": 8,
+          "share": 0.2222222222222222
+        }
+      ],
+      "vessel_concentration_hhi": 0.654320987654321,
+      "weekdayPrediction": {
+        "status": "evaluated",
+        "train_days": 62,
+        "test_days": 28,
+        "split_date": "2026-11-03",
+        "weekday_mae": 0.6785714285714286,
+        "constant_mae": 0.47695852534562216,
+        "predictions": [
+          {
+            "date": "2026-11-03",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-04",
+            "actual": 1,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-05",
+            "actual": 1,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-06",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-07",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-08",
+            "actual": 1,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-09",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-10",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-11",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-12",
+            "actual": 1,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-13",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-14",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-15",
+            "actual": 1,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-16",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-17",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-18",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-19",
+            "actual": 1,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-20",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-21",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-22",
+            "actual": 1,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-23",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-24",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-25",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-26",
+            "actual": 1,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-27",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-28",
+            "actual": 0,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-29",
+            "actual": 1,
+            "predicted": 0,
+            "constant_baseline": 0.43548387096774194
+          },
+          {
+            "date": "2026-11-30",
+            "actual": 0,
+            "predicted": 1,
+            "constant_baseline": 0.43548387096774194
+          }
+        ],
+        "scope": "Retrospective chronological 70/30 backtest of baseline source records, not a future or operational forecast. Selected vessel scenario does not alter this backtest."
+      },
       "interpretation": "Published-record coverage, not reliability, cancellations, capacity or a prediction. Scenario removes all records for a vessel without substitutions."
     }
   ],
@@ -2308,6 +4721,365 @@
       }
     ],
     "limitations": "Synthetic template-disjoint test only; ports normalised to PORT. Small related phrase set is not real-world validation; score margins are not calibrated probabilities."
+  },
+  "nlp_challenge": {
+    "test_set": "synthetic-challenge-v2",
+    "cases": [
+      {
+        "text": "please travel from Liverpool to douglas",
+        "expected": "in",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "out",
+          "bigrams": "in"
+        }
+      },
+      {
+        "text": "please travel from Heysham to douglas",
+        "expected": "in",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "out",
+          "bigrams": "in"
+        }
+      },
+      {
+        "text": "please travel from Larne to douglas",
+        "expected": "in",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "out",
+          "bigrams": "in"
+        }
+      },
+      {
+        "text": "ferry leaving Liverpool for the isle of man",
+        "expected": "in",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "in",
+          "bigrams": "in"
+        }
+      },
+      {
+        "text": "ferry leaving Heysham for the isle of man",
+        "expected": "in",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "in",
+          "bigrams": "in"
+        }
+      },
+      {
+        "text": "ferry leaving Larne for the isle of man",
+        "expected": "in",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "in",
+          "bigrams": "in"
+        }
+      },
+      {
+        "text": "please travel from douglas to Liverpool",
+        "expected": "out",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "out",
+          "bigrams": "out"
+        }
+      },
+      {
+        "text": "please travel from douglas to Heysham",
+        "expected": "out",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "out",
+          "bigrams": "out"
+        }
+      },
+      {
+        "text": "please travel from douglas to Larne",
+        "expected": "out",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "out",
+          "bigrams": "out"
+        }
+      },
+      {
+        "text": "ferry leaving the isle of man for Liverpool",
+        "expected": "out",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "in",
+          "bigrams": "out"
+        }
+      },
+      {
+        "text": "ferry leaving the isle of man for Heysham",
+        "expected": "out",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "in",
+          "bigrams": "out"
+        }
+      },
+      {
+        "text": "ferry leaving the isle of man for Larne",
+        "expected": "out",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "in",
+          "bigrams": "out"
+        }
+      },
+      {
+        "text": "do not sail from Liverpool to Douglas",
+        "expected": null,
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": null,
+          "bigrams": null
+        }
+      },
+      {
+        "text": "from Liverpool via Heysham to Douglas",
+        "expected": null,
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": null,
+          "bigrams": null
+        }
+      },
+      {
+        "text": "cancel my ferry from Larne to Douglas",
+        "expected": null,
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": null,
+          "bigrams": null
+        }
+      },
+      {
+        "text": "cheapest ticket please",
+        "expected": null,
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": null,
+          "bigrams": null
+        }
+      },
+      {
+        "text": "from Dublin to Douglas",
+        "expected": null,
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": null,
+          "bigrams": null
+        }
+      },
+      {
+        "text": "Liverpool tomorrow",
+        "expected": null,
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": null,
+          "bigrams": null
+        }
+      },
+      {
+        "text": "Douglaz to Liverpool",
+        "expected": null,
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": null,
+          "bigrams": null
+        }
+      },
+      {
+        "text": "from Douglas to Heysham",
+        "expected": "out",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "out",
+          "bigrams": "out"
+        }
+      },
+      {
+        "text": "from Larne to the island",
+        "expected": "in",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "in",
+          "bigrams": "in"
+        }
+      },
+      {
+        "text": "from the island to Larne",
+        "expected": "out",
+        "predictions": {
+          "majority_in": "in",
+          "unigrams": "in",
+          "bigrams": "in"
+        }
+      }
+    ],
+    "metrics": {
+      "majority_in": {
+        "correct": 7,
+        "total": 22,
+        "answered": 22,
+        "selective_accuracy": 0.3181818181818182,
+        "answer_coverage": 1,
+        "unsupported_false_answers": 7
+      },
+      "unigrams": {
+        "correct": 15,
+        "total": 22,
+        "answered": 15,
+        "selective_accuracy": 0.5333333333333333,
+        "answer_coverage": 0.6818181818181818,
+        "unsupported_false_answers": 0
+      },
+      "bigrams": {
+        "correct": 21,
+        "total": 22,
+        "answered": 15,
+        "selective_accuracy": 0.9333333333333333,
+        "answer_coverage": 0.6818181818181818,
+        "unsupported_false_answers": 0
+      }
+    },
+    "limitations": "Constructed examples, not independent human evaluation. Abstention correctness and answer coverage are reported separately; no real-world performance claim."
+  },
+  "data_quality": {
+    "record_count": 402,
+    "duplicate_keys": [],
+    "missing_record_source_urls": 331,
+    "durationGroups": [
+      {
+        "group": "Heysham|out|BC",
+        "n": 123,
+        "median_clock_minutes": 225,
+        "mad_clock_minutes": 0,
+        "candidates": []
+      },
+      {
+        "group": "Liverpool|out|M",
+        "n": 35,
+        "median_clock_minutes": 165,
+        "mad_clock_minutes": 0,
+        "candidates": []
+      },
+      {
+        "group": "Liverpool|out|BC",
+        "n": 8,
+        "median_clock_minutes": 270,
+        "mad_clock_minutes": 0,
+        "candidates": []
+      },
+      {
+        "group": "Heysham|in|BC",
+        "n": 122,
+        "median_clock_minutes": 225,
+        "mad_clock_minutes": 0,
+        "candidates": [
+          {
+            "date": "2026-10-04",
+            "departure": "01:45",
+            "duration": 255
+          },
+          {
+            "date": "2026-10-11",
+            "departure": "01:45",
+            "duration": 255
+          },
+          {
+            "date": "2026-10-18",
+            "departure": "01:45",
+            "duration": 255
+          },
+          {
+            "date": "2026-10-25",
+            "departure": "01:45",
+            "duration": 255
+          },
+          {
+            "date": "2026-10-31",
+            "departure": "01:45",
+            "duration": 255
+          },
+          {
+            "date": "2026-11-01",
+            "departure": "01:45",
+            "duration": 255
+          },
+          {
+            "date": "2026-11-07",
+            "departure": "01:45",
+            "duration": 255
+          },
+          {
+            "date": "2026-11-14",
+            "departure": "01:45",
+            "duration": 255
+          },
+          {
+            "date": "2026-11-21",
+            "departure": "01:45",
+            "duration": 255
+          },
+          {
+            "date": "2026-11-28",
+            "departure": "01:45",
+            "duration": 255
+          }
+        ]
+      },
+      {
+        "group": "Liverpool|in|M",
+        "n": 35,
+        "median_clock_minutes": 165,
+        "mad_clock_minutes": 0,
+        "candidates": []
+      },
+      {
+        "group": "Liverpool|in|BC",
+        "n": 8,
+        "median_clock_minutes": 270,
+        "mad_clock_minutes": 0,
+        "candidates": []
+      },
+      {
+        "group": "Larne|out|M",
+        "n": 28,
+        "median_clock_minutes": 180,
+        "mad_clock_minutes": 0,
+        "candidates": []
+      },
+      {
+        "group": "Larne|in|M",
+        "n": 28,
+        "median_clock_minutes": 165,
+        "mad_clock_minutes": 0,
+        "candidates": []
+      },
+      {
+        "group": "Larne|out|BC",
+        "n": 8,
+        "median_clock_minutes": 315,
+        "mad_clock_minutes": 0,
+        "candidates": []
+      },
+      {
+        "group": "Larne|in|BC",
+        "n": 7,
+        "median_clock_minutes": 315,
+        "mad_clock_minutes": 0,
+        "candidates": []
+      }
+    ],
+    "interpretation": "Robust descriptive screening within port/direction/vessel groups. MAD=0 flags nonmedian values for inspection only; candidate is not proof of error. Local clock durations are not DST-correct elapsed times."
   },
   "limitations": [
     "Published autumn snapshot only",

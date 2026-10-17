@@ -45,3 +45,7 @@ Surface these actions with every answer. Do not claim a scheduled sailing is ope
 ## Human notes and updates
 
 See travel-notes.md, DATA-SOURCES.md, DATA-FORMAT.md, CONTRIBUTING.md and UPDATE-TIMETABLE.md. The full source table is rendered in the original HTML without JavaScript. The website remains human-first in presentation; agent files are linked from its methodology panel.
+
+## Research and environment interfaces
+
+The current site is a non-commercial open-source research demo, not a travel reseller service. research/results.json contains versioned experiment output, retrospective backtests, synthetic NLP challenge results and data-quality review candidates. research/weather/history.json contains pinned NOAA station-history coverage, monthly values, per-variable reporting counts and original-file hashes (1973–2025; no overlap with the 2026 sailing snapshot). ENVIRONMENT.md explains units and missing values. environment.js exposes an uncalibrated teaching harmonic model, never a tide prediction for a named port. Do not convert source-record statistics into operating reliability, cancellation predictions or marine safety advice. Cite the dataset, scope and scientific limitations. See LICENSES.md and HOSTING-REVIEW.md for rights boundaries and the maintainer policy assessment.

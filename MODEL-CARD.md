@@ -17,3 +17,9 @@ Abstain if no known port, no island term or top-two log-score margin below 0.1. 
 ## Improvement protocol
 
 Collect consented, independently labelled non-sensitive queries; separate by phrase family and source; freeze an untouched evaluation set; report macro metrics, abstention coverage and errors against deterministic baselines. Do not train on private passenger data or claim gains from tuning to this tiny test set.
+
+## Challenge evaluation v2 and explanations
+
+A fixed constructed 22-case challenge set adds unsupported requests, negation, multi-port language, misspelling and new phrasings. Compare majority-in, unigram-only ablation and unigram+bigram models. The guarded bigram model answers 15/22 and gets 21/22 correct when correct abstentions are counted; one supported phrase is misclassified. Unsupported false answers are 0/7 on this fixture. Guard rules are part of the system, so abstention success is not solely learned behaviour. See all predictions and metrics in research/results.json.
+
+Feature explanations report per-token class log-likelihood ratios: positive favours in; negative favours out. Top distinct tokens are displayed; repeated tokens still contribute to the actual score. Log-score margin is not a calibrated confidence probability. The model is a small classifier, not a generative language model. Tests remain synthetic and correlated; no score establishes field readiness.
