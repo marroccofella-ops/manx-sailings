@@ -20,7 +20,7 @@ It is not a reseller business, ticket storefront or paid software service. There
 | Protect private and sensitive information | No account, cookies, analytics, passenger-data collection or private-email archive; tools run locally; publisher secret/path scans |
 | Respect intellectual-property rights | LICENSE (MIT), LICENSES.md rights inventory, source citations, no operator PDFs/logos, separately attributed retained photograph |
 | Respect Pages usage/build limits | Small static files and bounded local computation; pinned compressed weather source files; tests enforce a conservative 100 MiB site-budget cap (below the published 1 GB site limit) |
-| Actions usage must relate to project production/testing/publication | CI only reproduces this repository's code, data exports and tests; historical network imports are manual, not scheduled |
+| Actions usage must relate to project production/testing/publication | CI only reproduces this repository's code, data exports and tests; historical imports are manual; one daily bounded forecast import directly builds, tests and publishes this project |
 
 Automated checks support this assessment but cannot establish legal compliance, data rights, traffic quotas or GitHub acceptance. Site transfer/build usage requires periodic review; this code does not claim access to account-wide bandwidth usage.
 

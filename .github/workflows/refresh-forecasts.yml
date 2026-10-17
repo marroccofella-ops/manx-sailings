@@ -1,0 +1,53 @@
+name: Refresh port forecasts and publish Pages
+on:
+  schedule:
+    - cron: '23 5 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages-publication
+  cancel-in-progress: false
+jobs:
+  refresh-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch all five port forecasts
+        run: node import-port-conditions.cjs --download
+      - name: Build and validate before publishing
+        run: |
+          npm run build
+          npm test
+      - name: Preserve validated snapshot in source control
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/port-conditions.json Manx-Sailings-Standalone.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh dated port forecast snapshot'
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+  deploy:
+    needs: refresh-and-build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish validated site
+        id: deployment
+        uses: actions/deploy-pages@v4
